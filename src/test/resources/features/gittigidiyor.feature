@@ -6,8 +6,8 @@ Feature: GittiGidiyor BDD Testing
    Given I search "laptop"
    Then I click search button
    And Validate search result "laptop"
-   And Go to Search Page "3"
-   And Validate Search Page "3"
+   And Go to Search Page "2"
+   And Validate Search Page "2"
    Then Choose any Product
    And Add to Cart
    Then Go to My Cart
