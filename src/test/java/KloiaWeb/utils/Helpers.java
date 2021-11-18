@@ -1,11 +1,8 @@
-package Gittigidiyor.utils;
+package KloiaWeb.utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-
-import java.util.List;
-import java.util.Random;
 import java.util.Set;
 
 public class Helpers {
@@ -16,15 +13,6 @@ public class Helpers {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-    }
-
-    public static String listProducts(By arg0) {
-        List<WebElement> myElements = Drivers.get().findElements(arg0);
-        Random number = new Random();
-        int random=number.nextInt(myElements.size());
-        WebElement product = myElements.get(random);
-        String[] a= product.getText().split("\\r?\\n");
-        return a[0];
     }
 
     public static void switchLastTab() {

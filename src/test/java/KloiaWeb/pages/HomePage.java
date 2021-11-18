@@ -1,6 +1,6 @@
-package Gittigidiyor.pages;
+package KloiaWeb.pages;
 
-import Gittigidiyor.utils.Drivers;
+import KloiaWeb.utils.Drivers;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
