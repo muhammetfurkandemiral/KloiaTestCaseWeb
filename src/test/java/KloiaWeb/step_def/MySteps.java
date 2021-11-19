@@ -4,8 +4,6 @@ import KloiaWeb.pages.HomePage;
 import KloiaWeb.pages.ProductDetailPage;
 import KloiaWeb.pages.SearchProductPage;
 import KloiaWeb.pages.SignInPage;
-import KloiaWeb.utils.Drivers;
-import KloiaWeb.utils.Helpers;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

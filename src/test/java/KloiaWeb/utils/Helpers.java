@@ -1,13 +1,7 @@
 package KloiaWeb.utils;
 
 import org.openqa.selenium.*;
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.List;
-import java.util.Properties;
 import java.util.Set;
 
 public class Helpers {
@@ -18,25 +12,6 @@ public class Helpers {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-    }
-
-    public static Properties fileReader(File arg0) {
-        FileInputStream fileInput = null;
-        try {
-            fileInput = new FileInputStream(arg0);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        Properties prop = new Properties();
-
-        //load properties file
-        try {
-            prop.load(fileInput);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return prop;
-
     }
 
     public static void switchLastTab() {
