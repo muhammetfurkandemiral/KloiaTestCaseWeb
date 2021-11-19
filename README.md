@@ -1,9 +1,12 @@
 # Kloia Web Test Case 
 
->**IMPORTANT:**  Update config.properties file.
+>**IMPORTANT:**  Please update config.properties file.
 >
-
 ![howtoeditconfigfile](https://user-images.githubusercontent.com/37184598/142594664-c8a5aef7-e0a5-449f-a0d2-e29760f2f991.gif)
+
+>How to work
+>
+https://user-images.githubusercontent.com/37184598/142612027-c6f51ab4-7b86-4eae-982d-3a3b99c2cbac.mp4
 
 Test Automation Case Study-1 (Web)
 
