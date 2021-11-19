@@ -9,8 +9,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import java.io.File;
-
 public class SignInPage {
 
     public SignInPage(){
@@ -20,7 +18,7 @@ public class SignInPage {
     @FindBy(id = "fld-e")
     public WebElement emailField;
     public void fillEmail() {
-        String email = ConfReader.get("user-name");
+        String email = ConfReader.get("email");
         emailField.sendKeys(email);
     }
 
@@ -51,7 +49,7 @@ public class SignInPage {
     @FindBy(name="password")
     public WebElement googlePasswordField;
     public void signWithGoogle() {
-        String email = ConfReader.get("google-user-name");
+        String email = ConfReader.get("google-email");
         String password = ConfReader.get("google-password");
         Helpers.waitFor(2);
         googleButton.click();

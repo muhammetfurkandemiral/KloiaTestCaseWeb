@@ -22,7 +22,7 @@ public class Drivers {
 
 
         if(driver == null){
-            String browser = (System.getProperty("browser") != null) ? System.getProperty("browser") : ConfReader.get("browser");
+            String browser = (System.getProperty("browserName") != null) ? System.getProperty("browserName") : ConfReader.get("browserName");
 
             switch (browser.toLowerCase()){
 
@@ -44,7 +44,6 @@ public class Drivers {
                     WebDriverManager.iedriver().setup();
                     driver = new InternetExplorerDriver();
                     break;
-
                 case "edge":
                     if (!System.getProperty("os.name").toLowerCase().contains("windows"))
                         throw new WebDriverException("Your OS doesn't support Edge");

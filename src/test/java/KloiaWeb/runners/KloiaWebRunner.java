@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         },
         glue = "KloiaWeb/step_def",
         features = "src/test/resources/features",
-        tags = "@regression",
+        tags = "@task2",
         dryRun = false
 )
 public class KloiaWebRunner {
