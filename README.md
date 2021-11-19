@@ -1,6 +1,6 @@
 # Kloia Web Test Case 
 
->**IMPORTANT:_**  Update config.properties file.
+>**IMPORTANT:**  Update config.properties file.
 >
 
 ![howtoeditconfigfile](https://user-images.githubusercontent.com/37184598/142594664-c8a5aef7-e0a5-449f-a0d2-e29760f2f991.gif)
