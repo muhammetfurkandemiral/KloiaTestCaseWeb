@@ -6,10 +6,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {},
+        plugin = {
+            "html:target/default-html-reports"
+        },
         glue = "KloiaWeb/step_def",
         features = "src/test/resources/features",
-        tags = "",
+        tags = "@regression",
         dryRun = false
 )
 public class KloiaWebRunner {
