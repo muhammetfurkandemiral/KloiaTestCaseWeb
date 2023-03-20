@@ -34,10 +34,3 @@ Feature: Kloia Test Case Web
     And Click Save button
     And Open Saved Items list
     Then Verify that the title of saved product is on the list
-
-
-
-
-
-
-
